@@ -142,7 +142,7 @@ class Problem9_2  extends PaintPanel
 	{
 		return "2. BankAccount Class Copy Constructor"
 +"\nAdd a copy constructor to the BankAccount class. This constructor should accept a BankAccount object as an argument. It should assign to the balance field the value in the "
-+"\nargument’s balance field. As a result, the new object will be a copy of the argument object.";
++"\narguments balance field. As a result, the new object will be a copy of the argument object.";
 	}
 	
 	private class BankAccount

@@ -31,10 +31,10 @@ class Problem11_5  extends PaintPanel
 	{
 		return "5. Course Grades"
 +"\n\nIn a course, a teacher gives the following tests and assignments:"
-+"\n• A lab activity that is observed by the teacher and assigned a numeric score."
-+"\n• A pass/fail exam that has 10 questions. The minimum passing score is 70."
-+"\n• An essay that is assigned a numeric score."
-+"\n• A final exam that has 50 questions."
++"\n A lab activity that is observed by the teacher and assigned a numeric score."
++"\n A pass/fail exam that has 10 questions. The minimum passing score is 70."
++"\n An essay that is assigned a numeric score."
++"\n A final exam that has 50 questions."
 +"\n\nWrite a class named CourseGrades. The class should have a GradedActivity array named grades as a field. The array should have four elements, one for each of the assignments previously described. The class should have the following methods:";
 	}
 	

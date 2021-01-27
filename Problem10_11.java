@@ -43,18 +43,18 @@ class Problem10_11 extends PaintPanel
 	public String getDescription()
 	{
 		return "11. Sales Analysis"
-+"\n\nThe file SalesData.txt, available with this book’s source code at www.pearsonhighered.com/gaddis, contains the dollar amount of sales that a retail store made each day for a number of weeks. Each line in the file contains seven numbers, "
++"\n\nThe file SalesData.txt, available with this books source code at www.pearsonhighered.com/gaddis, contains the dollar amount of sales that a retail store made each day for a number of weeks. Each line in the file contains seven numbers, "
 +"\nwhich are the sales numbers for one week. The numbers are separated by a comma. The following line is an example from the file:"
  
 + "\n\n2541.36,2965.88,1965.32,1845.23,7021.11,9652.74,1469.36"
 
 +"\n\nWrite a program that opens the file and processes its contents. The program should display the following:"
-+"\n\n• The total sales for each week"
-+"\n• The average daily sales for each week"
-+"\n• The total sales for all of the weeks"
-+"\n• The average weekly sales"
-+"\n• The week number that had the highest amount of sales"
-+"\n• The week number that had the lowest amount of sales"
++"\n\n The total sales for each week"
++"\n The average daily sales for each week"
++"\n The total sales for all of the weeks"
++"\n The average weekly sales"
++"\n The week number that had the highest amount of sales"
++"\n The week number that had the lowest amount of sales"
 +"\n\n NOTE: At this point I can't get access to the original SalesData.txt, so the program will generate and save a random SalesData.txt file with a similar format, and then compute the same answers.";
 	}
 	

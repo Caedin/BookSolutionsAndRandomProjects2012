@@ -38,8 +38,8 @@ class Problem10_2  extends PaintPanel
 	public String getDescription()
 	{
 		return "2. Word Counter\n"+
-"Write a method that accepts a String object as an argument and returns the number of words it contains. For instance, if the argument is “Four score and seven" 
-+"\nyears ago” the method should return the number 6. Demonstrate the method in a program that asks the user to input a string and then passes it to the method. "
+"Write a method that accepts a String object as an argument and returns the number of words it contains. For instance, if the argument is Four score and seven" 
++"\nyears ago the method should return the number 6. Demonstrate the method in a program that asks the user to input a string and then passes it to the method. "
 +"\nThe number of words in the string should be displayed on the screen.";
 	}
 	

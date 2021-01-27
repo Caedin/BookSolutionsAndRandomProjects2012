@@ -38,7 +38,7 @@ public class Problem14_6 extends PaintApplet implements MouseMotionListener, Mou
 	public String getDescription()
 	{
 		return "6. GridFiller Applet"
-+"\n\nWrite an applet that displays a 4×4 grid. When the user clicks on a square in the grid, the applet should draw a filled circle in it. If the square already has a circle," 
++"\n\nWrite an applet that displays a 44 grid. When the user clicks on a square in the grid, the applet should draw a filled circle in it. If the square already has a circle," 
 +"\nclicking on it should cause the circle to disappear.";
 	}
 	

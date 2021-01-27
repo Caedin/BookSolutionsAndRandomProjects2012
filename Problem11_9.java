@@ -36,11 +36,11 @@ class Problem11_9  extends PaintPanel
 	{
 		return "9. BankAccount and SavingsAccount Classes"
 +"\n\nDesign an abstract class named BankAccount to hold the following data for a bank account:"
-+"\n\n• Balance"
-+"\n• Number of deposits this month"
-+"\n• Number of withdrawals"
-+"\n• Annual interest rate"
-+"\n• Monthly service charges"
++"\n\n Balance"
++"\n Number of deposits this month"
++"\n Number of withdrawals"
++"\n Annual interest rate"
++"\n Monthly service charges"
 +"\n\nThe class should have the following methods:"
 
 +"\n\nNext, design a SavingsAccount class that extends the BankAccount class. The SavingsAccount class should have a status field to represent an active or inactive account. If the balance of a savings "

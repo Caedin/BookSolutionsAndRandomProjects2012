@@ -129,14 +129,14 @@ class Problem10_6  extends PaintPanel
 	public String getDescription()
 	{
 		return "6. Telemarketing Phone Number List"
-+"\n\nWrite a program that has two parallel arrays of String objects. One of the arrays should hold people’s names and the other should hold their phone numbers. "
++"\n\nWrite a program that has two parallel arrays of String objects. One of the arrays should hold peoples names and the other should hold their phone numbers. "
 +"\nHere are example contents of both arrays:"
 
 
 
  
 +"\n\nThe program should ask the user to enter a name or the first few characters of a name to search for in the array. The program should display all of the names that match the "
-+"\nuser’s input and their corresponding phone numbers. For example, if the user enters “Smith,” the program should display the following names and phone numbers from the list:"
++"\nuser's input and their corresponding phone numbers. For example, if the user enters Smith, the program should display the following names and phone numbers from the list:"
  
 +"\n\n Smith, William: 555-1785"
 +"\n Smith, Brad: 555-9224";

@@ -167,14 +167,14 @@ public class Problem9_6 extends PaintPanel
 	public String getDescription()
 	{
 		return "6. CashRegister Class"
-+"\n\nWrite a CashRegister class that can be used with the RetailItem class that you wrote in Chapter 6’s Programming Challenge 4. The CashRegister class should simulate the sale of a retail "
++"\n\nWrite a CashRegister class that can be used with the RetailItem class that you wrote in Chapter 6s Programming Challenge 4. The CashRegister class should simulate the sale of a retail "
 +"\nitem. It should have a constructor that accepts a RetailItem object as an argument. The constructor should also accept an integer that represents the quantity of items being purchased. "
 +"\nIn addition, the class should have the following methods:"
  
-+"\n\n• The getSubtotal method should return the subtotal of the sale, which is the quantity multiplied by the price. This method must get the price from the RetailItem object that was passed as an argument to the constructor."
-+"\n• The getTax method should return the amount of sales tax on the purchase. The sales tax rate is 6 percent of a retail sale."
-+"\n• The getTotal method should return the total of the sale, which is the subtotal plus the sales tax."
-+"\n\nDemonstrate the class in a program that asks the user for the quantity of items being purchased, and then displays the sale’s subtotal, amount of sales tax, and total.";
++"\n\n The getSubtotal method should return the subtotal of the sale, which is the quantity multiplied by the price. This method must get the price from the RetailItem object that was passed as an argument to the constructor."
++"\n The getTax method should return the amount of sales tax on the purchase. The sales tax rate is 6 percent of a retail sale."
++"\n The getTotal method should return the total of the sale, which is the subtotal plus the sales tax."
++"\n\nDemonstrate the class in a program that asks the user for the quantity of items being purchased, and then displays the sales subtotal, amount of sales tax, and total.";
 	}
 		
 

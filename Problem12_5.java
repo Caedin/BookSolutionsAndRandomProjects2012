@@ -35,13 +35,13 @@ class Problem12_5  extends PaintPanel
 	public String getDescription()
 	{
 		return "5. Payroll Class Exceptions"
-+"\n\nProgramming Challenge 5 of Chapter 6 required you to write a Payroll class that calculates an employee’s payroll. Write exception classes for the following error conditions:"
++"\n\nProgramming Challenge 5 of Chapter 6 required you to write a Payroll class that calculates an employees payroll. Write exception classes for the following error conditions:"
  
-+"\n\n• An empty string is given for the employee’s name."
-+"\n• An invalid value is given for the employee’s ID number. If you implemented this field as a string, then an empty string would be invalid. If you implemented this field as a numeric variable, "
++"\n\n An empty string is given for the employees name."
++"\n An invalid value is given for the employees ID number. If you implemented this field as a string, then an empty string would be invalid. If you implemented this field as a numeric variable, "
 +"\nthen a negative number or zero would be invalid."
-+"\n• An invalid number is given for the number of hours worked. This would be a negative number or a number greater than 84."
-+"\n• An invalid number is given for the hourly pay rate. This would be a negative number or a number greater than 25."
++"\n An invalid number is given for the number of hours worked. This would be a negative number or a number greater than 84."
++"\n An invalid number is given for the hourly pay rate. This would be a negative number or a number greater than 25."
 +"\n\nModify the Payroll class so that it throws the appropriate exception when any of these errors occurs. Demonstrate the exception classes in a program.";
 	}
 	

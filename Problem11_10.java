@@ -36,22 +36,22 @@ class Problem11_10  extends PaintPanel
 	{
 		return "10. Ship, CruiseShip, and CargoShip Classes"
 +"\n\nDesign a Ship class that the following members:"
-+"\n\n• A field for the name of the ship (a string)."
-+"\n• A field for the year that the ship was built (a string)."
-+"\n• A constructor and appropriate accessors and mutators."
-+"\n• A toString method that displays the ship’s name and the year it was built."
++"\n\n A field for the name of the ship (a string)."
++"\n A field for the year that the ship was built (a string)."
++"\n A constructor and appropriate accessors and mutators."
++"\n A toString method that displays the ships name and the year it was built."
 +"\n\nDesign a CruiseShip class that extends the Ship class. The CruiseShip class should have the following members:"
 +"\n "
-+"\n• A field for the maximum number of passengers (an int)."
-+"\n• A constructor and appropriate accessors and mutators."
-+"\n• A toString method that overrides the toString method in the base class. The CruiseShip class’s toString method should display only the ship’s name and the maximum number of passengers."
++"\n A field for the maximum number of passengers (an int)."
++"\n A constructor and appropriate accessors and mutators."
++"\n A toString method that overrides the toString method in the base class. The CruiseShip classs toString method should display only the ships name and the maximum number of passengers."
 +"\n\nDesign a CargoShip class that extends the Ship class. The CargoShip class should have the following members:"
 +"\n "
-+"\n• A field for the cargo capacity in tonnage (an int)."
-+"\n• A constructor and appropriate accessors and mutators."
-+"\n• A toString method that overrides the toString method in the base class. The CargoShip class’s toString method should display only the ship’s name and the ship’s cargo capacity."
++"\n A field for the cargo capacity in tonnage (an int)."
++"\n A constructor and appropriate accessors and mutators."
++"\n A toString method that overrides the toString method in the base class. The CargoShip classs toString method should display only the ships name and the ships cargo capacity."
 +"\n\nDemonstrate the classes in a program that has a Ship array. Assign various Ship, CruiseShip, and CargoShip objects to the array elements. The program should then step through the array, "
-+"\ncalling each object’s toString method. (See Code Listing 11-25 as an example.)";
++"\ncalling each objects toString method. (See Code Listing 11-25 as an example.)";
 	}	
 	
 	public JPanel buildPanel()

@@ -37,9 +37,9 @@ class Problem12_10  extends PaintPanel
 		return "The Exception Project Problem"
 +"\n\nThis assignment assumes you have completed Programming Challenge 1 of Chapter 11 (Employee and ProductionWorker Classes). Modify the Employee and ProductionWorker classes so they "
 +"\nthrow exceptions when the following errors occur:"
-+"\n\n• The Employee class should throw an exception named InvalidEmployeeNumber when it receives an employee number that is less than 0 or greater than 9999."
-+"\n• The ProductionWorker class should throw an exception named InvalidShift when it receives an invalid shift."
-+"\n• The ProductionWorker class should throw an exception named InvalidPayRate when it receives a negative number for the hourly pay rate."
++"\n\n The Employee class should throw an exception named InvalidEmployeeNumber when it receives an employee number that is less than 0 or greater than 9999."
++"\n The ProductionWorker class should throw an exception named InvalidShift when it receives an invalid shift."
++"\n The ProductionWorker class should throw an exception named InvalidPayRate when it receives a negative number for the hourly pay rate."
 +"\n\nWrite a test program that demonstrates how each of these exception conditions works.";
 	}
 	

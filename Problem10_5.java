@@ -41,10 +41,10 @@ class Problem10_5  extends PaintPanel
 	public String getDescription()
 	{
 		return "5. Password Verifier"
-+"\nImagine you are developing a software package for Amazon.com that requires users to enter their own passwords. Your software requires that users’ passwords meet the following criteria:"
-+"\n• The password should be at least six characters long."
-+"\n• The password should contain at least one uppercase and at least one lowercase letter."
-+"\n• The password should have at least one digit.";
++"\nImagine you are developing a software package for Amazon.com that requires users to enter their own passwords. Your software requires that users passwords meet the following criteria:"
++"\n The password should be at least six characters long."
++"\n The password should contain at least one uppercase and at least one lowercase letter."
++"\n The password should have at least one digit.";
 	}
 	
 	

@@ -51,8 +51,8 @@ class Problem8_5 extends PaintPanel
 	@Override
 	public String getDescription()
 	{
-		return "5. Driver’s License Exam"
-+"\nThe local Driver’s License Office has asked you to write a program that grades the written portion of the driver’s license exam. The exam has 20 multiple choice questions. Here are the correct answers:"
+		return "5. Drivers License Exam"
++"\nThe local Drivers License Office has asked you to write a program that grades the written portion of the drivers license exam. The exam has 20 multiple choice questions. Here are the correct answers:"
 +"\n\n1. B"
 +"\n2. D"
 +"\n3. A"
@@ -74,12 +74,12 @@ class Problem8_5 extends PaintPanel
 +"\n19. D"
 +"\n20. A"
 +"\n\nA student must correctly answer 15 of the 20 questions to pass the exam."
-+"\nWrite a class named DriverExam that holds the correct answers to the exam in an array field. The class should also have an array field that holds the student’s answers. The class should have the following methods:"
-+"\n\n• passed. Returns true if the student passed the exam, or false if the student failed"
-+"\n• totalCorrect. Returns the total number of correctly answered questions"
-+"\n• totalIncorrect. Returns the total number of incorrectly answered questions"
-+"\n• questionsMissed. An int array containing the question numbers of the questions that the student missed"
-+"\n\nDemonstrate the class in a complete program that asks the user to enter a student’s answers, and then displays the results returned from the DriverExam class’s methods."
++"\nWrite a class named DriverExam that holds the correct answers to the exam in an array field. The class should also have an array field that holds the students answers. The class should have the following methods:"
++"\n\n passed. Returns true if the student passed the exam, or false if the student failed"
++"\n totalCorrect. Returns the total number of correctly answered questions"
++"\n totalIncorrect. Returns the total number of incorrectly answered questions"
++"\n questionsMissed. An int array containing the question numbers of the questions that the student missed"
++"\n\nDemonstrate the class in a complete program that asks the user to enter a students answers, and then displays the results returned from the DriverExam classs methods."
 +"\nInput Validation: Only accept the letters A, B, C, or D as answers.";
 	}
 

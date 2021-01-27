@@ -163,7 +163,7 @@ class Problem9_4 extends PaintPanel
 	public String getDescription()
 	{
 		return "4. LandTract Class"
-+"\nMake a LandTract class that has two fields: one for the tract’s length and one for the width. The class should have a method that returns the tract’s area, as well as an equals method and a "
++"\nMake a LandTract class that has two fields: one for the tracts length and one for the width. The class should have a method that returns the tracts area, as well as an equals method and a "
 +"\ntoString method. Demonstrate the class in a program that asks the user to enter the dimensions for two tracts of land. The program should display the area of each tract of land and indicate "
 +"\nwhether the tracts are of equal size.";
 	}

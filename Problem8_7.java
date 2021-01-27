@@ -168,9 +168,9 @@ class Problem8_7 extends PaintPanel
 	{
 		return "7. Grade Book"
 +"\nA teacher has five students who have taken four tests. The teacher uses the following grading scale to assign a letter grade to a student, based on the average of his or her four test scores:"
-+"\nWrite a class that uses a String array or an ArrayList object to hold the five students’ names, an array of five characters to hold the five students’ letter grades, and five arrays of four "
-+"\ndoubles each to hold each student’s set of test scores. The class should have methods that return a specific student’s name, average test score, and a letter grade based on the average."
-+"\nDemonstrate the class in a program that allows the user to enter each student’s name and his or her four test scores. It should then display each student’s average test score and letter grade."
++"\nWrite a class that uses a String array or an ArrayList object to hold the five students names, an array of five characters to hold the five students letter grades, and five arrays of four "
++"\ndoubles each to hold each students set of test scores. The class should have methods that return a specific students name, average test score, and a letter grade based on the average."
++"\nDemonstrate the class in a program that allows the user to enter each students name and his or her four test scores. It should then display each students average test score and letter grade."
 +"\nInput validation: Do not accept test scores less than zero or greater than 100.";
 	}
 	

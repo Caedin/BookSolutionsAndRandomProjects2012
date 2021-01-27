@@ -8,8 +8,6 @@
    import javax.swing.event.ChangeEvent;
    import java.awt.*;
    import java.awt.event.*;
-   import salazar.meyer.*;
-
 // -----------------------------------------------
 
 // Class HomeworkProject will contain the main applet and will be the core program of the project.
@@ -875,148 +873,6 @@
                }
             }
          
-            public void projects(String choice)
-            {
-            // End of the year Projects
-               if(choice.equals("Greer & Poche"))
-               {
-                  JTabbedPane tabs = new JTabbedPane();
-                  tabs.setPreferredSize(new Dimension(600,600));
-               
-                  PatientAccount patient = new PatientAccount();
-                  InterfaceGUI myWindow = new InterfaceGUI(patient);
-               
-                  tabs.add("GUI",KDUtil.wrap(myWindow.getContentPane()));
-               
-                  InterfaceApplet myApplet = new InterfaceApplet();
-                  myApplet.init();
-                  myApplet.start();
-               
-                  tabs.add("Applet",KDUtil.wrap(myApplet.getContentPane()));
-               
-               
-                  updateCenterPanelProject(tabs);
-               }
-            
-            
-               if(choice.equals("Michael & Eric"))
-               {
-                  JTabbedPane tabs = new JTabbedPane();
-                  tabs.setPreferredSize(new Dimension(600,600));
-               
-                  HospitalGUI gui = new HospitalGUI();
-                  gui.setVisible(false);
-               
-               
-               
-                  tabs.add("GUI",KDUtil.wrap(gui.getContentPane()));
-               
-                  HospitalApplet myApplet = new HospitalApplet();
-                  myApplet.init();
-                  myApplet.start();
-               
-                  tabs.add("Applet",KDUtil.wrap(myApplet.getContentPane()));
-               
-                  updateCenterPanelProject(tabs);
-               }
-            
-               if(choice.equals("Stupka & Reyes"))
-               {
-                  JTabbedPane tabs = new JTabbedPane();
-                  tabs.setPreferredSize(new Dimension(600,600));
-               
-                  PatientAccountWindowGUI gui = new PatientAccountWindowGUI();
-                  gui.setVisible(false);
-               				
-                  tabs.add("GUI",KDUtil.wrap(gui.getContentPane()));
-               
-                  PatientAccountApplet myApplet = new PatientAccountApplet();
-                  myApplet.init();
-                  myApplet.start();
-               
-                  tabs.add("Applet",KDUtil.wrap(myApplet.getContentPane()));
-               
-                  updateCenterPanelProject(tabs);
-               }
-            
-               if(choice.equals("Salazar & Meyer"))
-               {
-                  new salazar.meyer.welcomeGUI();
-               }
-            
-               if(choice.equals("Mike and Roel"))
-               {
-                  JTabbedPane tabs = new JTabbedPane();
-                  tabs.setPreferredSize(new Dimension(600,600));
-               
-                  hospitalDemo gui = new hospitalDemo();
-                  gui.setVisible(false);
-               	
-                  JPanel temp = new JPanel();
-                  temp = gui.getTopPanel();
-               	
-                  updateCenterPanelProject(temp);
-               				
-                  tabs.add("GUI",KDUtil.wrap(temp));
-               
-                  HopitalAppletDemo myApplet = new HopitalAppletDemo();
-                  //myApplet.init();
-                  //myApplet.start();
-                  myApplet.setVisible(false);
-               
-                  tabs.add("Applet",KDUtil.wrap(myApplet.getTopPanel()));
-               
-                  updateCenterPanelProject(tabs);
-               }
-            
-               if(choice.equals("Will & Jolynn"))
-               {
-                  JTabbedPane tabs = new JTabbedPane();
-                  tabs.setPreferredSize(new Dimension(600,600));
-               
-                  FinalFrame ff = new FinalFrame();
-               	//ff.setVisible(false);
-               				
-                  tabs.add("GUI",KDUtil.wrap(ff.getTopPanel()));
-               
-                  FinalApplet myApplet = new FinalApplet();
-                  myApplet.init();
-                  myApplet.start();
-                  myApplet.setVisible(false);
-               
-                  tabs.add("Applet",KDUtil.wrap(myApplet.getTopPanel()));
-               
-                  updateCenterPanelProject(tabs);
-               }
-            
-               if(choice.equals("Peter's Group"))
-               {
-                  HospitalMenu gui = new HospitalMenu();
-               				
-               }
-            
-               if(choice.equals("Unnamed"))
-               {
-                  JTabbedPane tabs = new JTabbedPane();
-                  tabs.setPreferredSize(new Dimension(600,600));
-               	
-                  NoNameProject x = new NoNameProject();
-               
-               				
-                  tabs.add("GUI",KDUtil.wrap(x.getGUI()));
-               
-                  tabs.add("Applet",KDUtil.wrap(x.getApplet()));
-               
-                  updateCenterPanelProject(tabs);
-               }
-            
-            
-            
-            
-            
-            }
-         
-         
          
             public void actionPerformed(ActionEvent e) 
             {
@@ -1031,7 +887,6 @@
                chapter12(choice);
                chapter13(choice);
                chapter14(choice);
-               projects(choice);
             					
             
             	

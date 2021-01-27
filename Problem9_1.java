@@ -321,9 +321,9 @@ class Problem9_1  extends PaintPanel
 	{
 		return "1. Area Class"
 +"\nWrite a class that has three overloaded static methods for calculating the areas of the following geometric shapes:"
-+"\n• circles"
-+"\n• rectangles"
-+"\n• cylinders"
++"\n  circles"
++"\n  rectangles"
++"\n  cylinders"
 +"\nHere are the formulas for calculating the area of the shapes."
 +"\nBecause the three methods are to be overloaded, they should each have the same name, but different parameter lists. Demonstrate the class in a complete program.";
 	}

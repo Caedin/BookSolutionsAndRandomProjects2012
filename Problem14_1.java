@@ -33,7 +33,7 @@ public class Problem14_1 extends PaintApplet implements MouseMotionListener, Mou
 	public String getDescription()
 	{
 		return "1. FollowMe Applet"
-+"\n\nWrite an applet that initially displays the word “Hello” in the center of a window. The word should follow the mouse cursor when it is moved inside the window.";
++"\n\nWrite an applet that initially displays the word Hello in the center of a window. The word should follow the mouse cursor when it is moved inside the window.";
 	}
 	
 

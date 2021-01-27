@@ -41,7 +41,7 @@ class Problem10_15 extends PaintPanel
 	public String getDescription()
 	{
 		return "15. Pig Latin"
-+"\n\nWrite a program that reads a sentence as input and converts each word to “Pig Latin”. In one version of Pig Latin, you convert a word by removing the first letter, placing that letter at the end of the word, and then appending “ay” to the word. Here is an example:"
++"\n\nWrite a program that reads a sentence as input and converts each word to Pig Latin. In one version of Pig Latin, you convert a word by removing the first letter, placing that letter at the end of the word, and then appending ay to the word. Here is an example:"
 +"\n\nEnglish: I SLEPT MOST OF THE NIGHT"
 +"\nPig Latin: IAY LEPTSAY OSTMAY FOAY HETAY IGHTNAY";
 	}

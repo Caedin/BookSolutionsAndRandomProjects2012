@@ -35,14 +35,14 @@ class Problem9_9  extends PaintPanel
 	{
 		return "9. Geometry Calculator\n"+
 "Design a Geometry class with the following methods:\n"
-+"• A static method that accepts the radius of a circle and returns the area of the circle. Use the following formula:\n"
++" A static method that accepts the radius of a circle and returns the area of the circle. Use the following formula:\n"
 +"Area = (pi)r2\n"
 +"Use Math.PI for pi and the radius of the circle for r.\n"
-+"• A static method that accepts the length and width of a rectangle and returns the area of the rectangle. Use the following formula:\n"
-+"Area = Length × Width\n"
-+"• A static method that accepts the length of a triangle’s base and the triangle’s height. The method should return the area of the triangle. Use the following formula:\n"
-+"Area = Base × Height × 0.5\n"
-+"The methods should display an error message if negative values are used for the circle’s radius, the rectangle’s length or width, or the triangle’s base or height.\n";
++" A static method that accepts the length and width of a rectangle and returns the area of the rectangle. Use the following formula:\n"
++"Area = Length  Width\n"
++" A static method that accepts the length of a triangles base and the triangles height. The method should return the area of the triangle. Use the following formula:\n"
++"Area = Base  Height  0.5\n"
++"The methods should display an error message if negative values are used for the circles radius, the rectangles length or width, or the triangles base or height.\n";
 	}
 	
 	

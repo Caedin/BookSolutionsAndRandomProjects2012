@@ -35,15 +35,15 @@ class Problem11_8  extends PaintPanel
 	public String getDescription()
 	{
 		return "8. PreferredCustomer Class"
-+"\n\nA retail store has a preferred customer plan where customers can earn discounts on all their purchases. The amount of a customer’s discount is determined by the amount of the customer’s cumulative "
++"\n\nA retail store has a preferred customer plan where customers can earn discounts on all their purchases. The amount of a customers discount is determined by the amount of the customers cumulative "
 +"\npurchases in the store as follows:"
  
-+"\n• When a preferred customer spends $500, he or she gets a 5 percent discount on all future purchases."
-+"\n• When a preferred customer spends $1,000, he or she gets a 6 percent discount on all future purchases."
-+"\n• When a preferred customer spends $1,500, he or she gets a 7 percent discount on all future purchases."
-+"\n• When a preferred customer spends $2,000 or more, he or she gets a 10 percent discount on all future purchases."
-+"\n\nDesign a class named PreferredCustomer, which extends the Customer class you created in Programming Challenge 7. The PreferredCustomer class should have fields for the amount of the customer’s "
-+"\npurchases and the customer’s discount level. Write one or more constructors and the appropriate mutator and accessor methods for the class’s fields. Demonstrate the class in a simple program.";
++"\n When a preferred customer spends $500, he or she gets a 5 percent discount on all future purchases."
++"\n When a preferred customer spends $1,000, he or she gets a 6 percent discount on all future purchases."
++"\n When a preferred customer spends $1,500, he or she gets a 7 percent discount on all future purchases."
++"\n When a preferred customer spends $2,000 or more, he or she gets a 10 percent discount on all future purchases."
++"\n\nDesign a class named PreferredCustomer, which extends the Customer class you created in Programming Challenge 7. The PreferredCustomer class should have fields for the amount of the customers "
++"\npurchases and the customers discount level. Write one or more constructors and the appropriate mutator and accessor methods for the classs fields. Demonstrate the class in a simple program.";
 	}	
 	
 	public JPanel buildPanel()

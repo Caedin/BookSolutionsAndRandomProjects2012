@@ -42,7 +42,7 @@ class Problem10_7  extends PaintPanel
 	{
 		return "7. Check Writer"
 		
-		+"\nWrite a program that displays a simulated paycheck. The program should ask the user to enter the date, the payee’s name, and the amount of the check. It should then display a simulated" 
+		+"\nWrite a program that displays a simulated paycheck. The program should ask the user to enter the date, the payees name, and the amount of the check. It should then display a simulated" 
 		+"\ncheck with the dollar amount spelled out.";
 	}
 	

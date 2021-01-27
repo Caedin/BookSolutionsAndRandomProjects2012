@@ -39,12 +39,12 @@ class Problem10_12 extends PaintPanel
 	{
 		return "12. Miscellaneous String Operations"
 +"\n\nWrite a class with the following static methods:"
-+"\n\n• WordCount. This method should accept a reference to a String object as an argument and return the number of words contained in the object."
-+"\n• arrayToString. This method accepts a char array as an argument and converts it to a String object. The method should return a reference to the String object."
-+"\n• mostFrequent. This method accepts a reference to a String object as an argument and returns the character that occurs the most frequently in the object."
-+"\n• replaceSubstring. This method accepts three references to String objects as arguments. Let’s call them string1, string2, and string3. It searches string1 for all occurrences of string2."
++"\n\n WordCount. This method should accept a reference to a String object as an argument and return the number of words contained in the object."
++"\n arrayToString. This method accepts a char array as an argument and converts it to a String object. The method should return a reference to the String object."
++"\n mostFrequent. This method accepts a reference to a String object as an argument and returns the character that occurs the most frequently in the object."
++"\n replaceSubstring. This method accepts three references to String objects as arguments. Lets call them string1, string2, and string3. It searches string1 for all occurrences of string2."
 +"\n\n When it finds an occurrence of string2, it replaces it with string3. For example, suppose the three arguments have the following values:"
-+"\nWith these three arguments, the method would return a reference to a String object with the value “that dog jumped over that fence”."
++"\nWith these three arguments, the method would return a reference to a String object with the value that dog jumped over that fence."
 +"\nDemonstrate each of these methods in a complete program.";
 	}
 	

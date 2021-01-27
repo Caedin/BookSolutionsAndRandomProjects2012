@@ -35,9 +35,9 @@ class Problem11_7  extends PaintPanel
 	public String getDescription()
 	{
 		return "7. Person and Customer Classes"
-+"\n\nDesign a class named Person with fields for holding a person’s name, address, and telephone number. Write one or more constructors and the appropriate mutator and accessor methods for the class’s fields."
++"\n\nDesign a class named Person with fields for holding a persons name, address, and telephone number. Write one or more constructors and the appropriate mutator and accessor methods for the classs fields."
 +"\nNext, design a class named Customer, which extends the Person class. The Customer class should have a field for a customer number and a boolean field indicating whether the customer wishes to be on a "
-+"\nmailing list. Write one or more constructors and the appropriate mutator and accessor methods for the class’s fields. Demonstrate an object of the Customer class in a simple program.";
++"\nmailing list. Write one or more constructors and the appropriate mutator and accessor methods for the classs fields. Demonstrate an object of the Customer class in a simple program.";
 	}	
 	
 	public JPanel buildPanel()

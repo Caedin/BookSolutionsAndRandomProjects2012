@@ -31,7 +31,7 @@ class Problem11_4  extends PaintPanel
 	{
 		return "4. Essay Class"
 +"\n\nDesign an Essay class that extends the GradedActivity class presented in this chapter. The Essay class should determine the grade "
-+"\na student receives for an essay. The student’s essay score can be up to 100 and is determined in the following manner:"
++"\na student receives for an essay. The students essay score can be up to 100 and is determined in the following manner:"
 +"\nGrammar: 30 points"
 +"\nSpelling: 20 points"
 +"\nCorrect length: 20 points"

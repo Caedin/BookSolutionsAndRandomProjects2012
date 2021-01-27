@@ -409,8 +409,8 @@ public class Problem12_4 extends PaintPanel
 		return "4. Month Class Exceptions"
 +"\n\nProgramming Challenge 5 of Chapter 9 required you to write a Month class that holds information about the month. Write exception classes for the following error conditions:"
  
-+"\n\n• A number less than 1 or greater than 12 is given for the month number."
-+"\n• An invalid string is given for the name of the month."
++"\n\n A number less than 1 or greater than 12 is given for the month number."
++"\n An invalid string is given for the name of the month."
 +"\n\nModify the Month class so that it throws the appropriate exception when either of these errors occurs. Demonstrate the classes in a program.";	}
 		
 

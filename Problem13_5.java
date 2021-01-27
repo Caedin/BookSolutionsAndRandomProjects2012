@@ -278,7 +278,7 @@ public class Problem13_5 extends PaintPanel
 	{
 		return "5. Shopping Cart System"
 +"\n\nCreate an application that works like a shopping cart system for a book" 
-+"\nstore. In this book’s source code, available at www.pearsonhighered.com/gaddis," 
++"\nstore. In this books source code, available at www.pearsonhighered.com/gaddis," 
 +"\nyou will find a file named BookPrices.txt. This file contains the names and "
 +"\nprices of various books, formatted in the following fashion:"
 
@@ -288,7 +288,7 @@ public class Problem13_5 extends PaintPanel
 +"\nFeel the Stress, 18.50"
  
 +"\n\nEach line in the file contains the name of a book, followed by a comma, "
-+"\nfollowed by the book’s retail price. When your application begins execution, it "
++"\nfollowed by the books retail price. When your application begins execution, it "
 +"\nshould read the contents of the file and store the book titles in a list component."
 +"\nThe user should be able to select a title from the list and add it to a shopping "
 +"\ncart, which is simply another list component. The application should have buttons"

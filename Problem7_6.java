@@ -128,16 +128,16 @@ class Problem7_6 extends PaintPanel
 	@Override
 	public String getDescription()
 	{
-		return "6. Joe’s Automotive"
-+"\nJoe’s Automotive performs the following routine maintenance services:"
-+"\n\n• Oil change—$26.00"
-+"\n• Lube job—$18.00"
-+"\n• Radiator flush—$30.00"
-+"\n• Transmission flush—$80.00"
-+"\n• Inspection—$15.00"
-+"\n• Muffler replacement—$100.00"
-+"\n• Tire rotation—$20.00"
-+"\n\nJoe also performs other nonroutine services and charges for parts and for labor ($20 per hour). Create a GUI application that displays the total for a customer’s visit to Joe’s.";
+		return "6. Joe s Automotive"
++"\nJoe s Automotive performs the following routine maintenance services:"
++"\n\n  Oil change $26.00"
++"\n  Lube job $18.00"
++"\n  Radiator flush $30.00"
++"\n  Transmission flush $80.00"
++"\n  Inspection $15.00"
++"\n  Muffler replacement $100.00"
++"\n  Tire rotation $20.00"
++"\n\nJoe also performs other nonroutine services and charges for parts and for labor ($20 per hour). Create a GUI application that displays the total for a customer s visit to Joe s.";
 	}
 	
 	
